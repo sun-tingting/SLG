@@ -1722,6 +1722,13 @@
 		50FCEBCA18C72017004AD434 /* WidgetReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FCEB9118C72017004AD434 /* WidgetReader.h */; };
 		50FCEBCB18C72017004AD434 /* WidgetReaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FCEB9218C72017004AD434 /* WidgetReaderProtocol.h */; };
 		50FCEBCC18C72017004AD434 /* WidgetReaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FCEB9218C72017004AD434 /* WidgetReaderProtocol.h */; };
+		5C606F671B7B1475001C278C /* libpng_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F661B7B1475001C278C /* libpng_arm64.a */; };
+		5C606F691B7B1490001C278C /* libjpeg_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F681B7B1490001C278C /* libjpeg_arm64.a */; };
+		5C606F6B1B7B14A0001C278C /* libtiff_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F6A1B7B14A0001C278C /* libtiff_arm64.a */; };
+		5C606F6D1B7B14B3001C278C /* libwebp_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F6C1B7B14B3001C278C /* libwebp_arm64.a */; };
+		5C606F6F1B7B14CA001C278C /* libfreetype_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F6E1B7B14CA001C278C /* libfreetype_arm64.a */; };
+		5C606F711B7B14E2001C278C /* libwebsockets_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F701B7B14E2001C278C /* libwebsockets_arm64.a */; };
+		5C606F731B7B14FB001C278C /* libcurl_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C606F721B7B14FB001C278C /* libcurl_arm64.a */; };
 		A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551A342158F2AB200E66CFE /* Foundation.framework */; };
 		B29594B41926D5EC003EEF37 /* CCMeshCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B29594B21926D5EC003EEF37 /* CCMeshCommand.cpp */; };
 		B29594B51926D5EC003EEF37 /* CCMeshCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B29594B21926D5EC003EEF37 /* CCMeshCommand.cpp */; };
@@ -2769,6 +2776,13 @@
 		50FCEB9018C72017004AD434 /* WidgetReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetReader.cpp; sourceTree = "<group>"; };
 		50FCEB9118C72017004AD434 /* WidgetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReader.h; sourceTree = "<group>"; };
 		50FCEB9218C72017004AD434 /* WidgetReaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReaderProtocol.h; sourceTree = "<group>"; };
+		5C606F661B7B1475001C278C /* libpng_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng_arm64.a; path = ../external/png/prebuilt/ios/libpng_arm64.a; sourceTree = "<group>"; };
+		5C606F681B7B1490001C278C /* libjpeg_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg_arm64.a; path = ../external/jpeg/prebuilt/ios/libjpeg_arm64.a; sourceTree = "<group>"; };
+		5C606F6A1B7B14A0001C278C /* libtiff_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff_arm64.a; path = ../external/tiff/prebuilt/ios/libtiff_arm64.a; sourceTree = "<group>"; };
+		5C606F6C1B7B14B3001C278C /* libwebp_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp_arm64.a; path = ../external/webp/prebuilt/ios/libwebp_arm64.a; sourceTree = "<group>"; };
+		5C606F6E1B7B14CA001C278C /* libfreetype_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype_arm64.a; path = ../external/freetype2/prebuilt/ios/libfreetype_arm64.a; sourceTree = "<group>"; };
+		5C606F701B7B14E2001C278C /* libwebsockets_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebsockets_arm64.a; path = ../external/websockets/prebuilt/ios/libwebsockets_arm64.a; sourceTree = "<group>"; };
+		5C606F721B7B14FB001C278C /* libcurl_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl_arm64.a; path = ../external/curl/prebuilt/ios/libcurl_arm64.a; sourceTree = "<group>"; };
 		A03F2CB81780BD04006731B9 /* libchipmunk Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libchipmunk Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2D9B1780BDF7006731B9 /* libbox2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libbox2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2ED617814268006731B9 /* libCocosDenshion Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCocosDenshion Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2857,6 +2871,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C606F731B7B14FB001C278C /* libcurl_arm64.a in Frameworks */,
+				5C606F711B7B14E2001C278C /* libwebsockets_arm64.a in Frameworks */,
+				5C606F6F1B7B14CA001C278C /* libfreetype_arm64.a in Frameworks */,
+				5C606F6D1B7B14B3001C278C /* libwebp_arm64.a in Frameworks */,
+				5C606F6B1B7B14A0001C278C /* libtiff_arm64.a in Frameworks */,
+				5C606F691B7B1490001C278C /* libjpeg_arm64.a in Frameworks */,
+				5C606F671B7B1475001C278C /* libpng_arm64.a in Frameworks */,
 				B3B12A5B17E7F45C00026B4A /* libchipmunk iOS.a in Frameworks */,
 				A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */,
 				1A570364180BD1120088DEC7 /* libpng.a in Frameworks */,
@@ -2949,6 +2970,13 @@
 		1551A341158F2AB200E66CFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C606F721B7B14FB001C278C /* libcurl_arm64.a */,
+				5C606F701B7B14E2001C278C /* libwebsockets_arm64.a */,
+				5C606F6E1B7B14CA001C278C /* libfreetype_arm64.a */,
+				5C606F6C1B7B14B3001C278C /* libwebp_arm64.a */,
+				5C606F6A1B7B14A0001C278C /* libtiff_arm64.a */,
+				5C606F681B7B1490001C278C /* libjpeg_arm64.a */,
+				5C606F661B7B1475001C278C /* libpng_arm64.a */,
 				1551A342158F2AB200E66CFE /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -7202,6 +7230,13 @@
 					"\"$(SRCROOT)/../external/freetype2/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/curl/prebuilt/ios\"",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/png/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/jpeg/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/tiff/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/webp/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/freetype2/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/websockets/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/curl/prebuilt/ios",
 				);
 				"OTHER_LDFLAGS[arch=arm64]" = (
 					"-lcurl_arm64",
@@ -7240,6 +7275,13 @@
 					"\"$(SRCROOT)/../external/freetype2/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
 					"\"$(SRCROOT)/../external/curl/prebuilt/ios\"",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/png/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/jpeg/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/tiff/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/webp/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/freetype2/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/websockets/prebuilt/ios",
+					"/Users/sun-tingting/projects/xcode/SLG+/SLG/cocos2d/external/curl/prebuilt/ios",
 				);
 				"OTHER_LDFLAGS[arch=arm64]" = (
 					"-lcurl_arm64",

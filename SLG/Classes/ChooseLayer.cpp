@@ -35,7 +35,9 @@ bool SeedChooseLayer::init()
     carrot->setPosition(Point(bgSprite->getContentSize().width, bgSprite->getContentSize().height));
     bgSprite->addChild(carrot);
     
+    // 创建事件监听器，OneByOne表示单点
     auto touchListener = EventListenerTouchOneByOne::create();
+    // 设置是否向下传递触摸，true表示不向下触摸。
     touchListener->setSwallowTouches(true);
     touchListener->onTouchBegan = CC_CALLBACK_2(SeedChooseLayer::onTouchBegan, this);
     
